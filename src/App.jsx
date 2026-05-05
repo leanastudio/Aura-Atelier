@@ -8,7 +8,7 @@ import ServicesPage from './pages/ServicesPage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <Cursor />
       <Navbar />
