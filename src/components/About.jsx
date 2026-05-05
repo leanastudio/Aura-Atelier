@@ -1,5 +1,7 @@
 import FadeIn from './FadeIn'
 
+const base = import.meta.env.BASE_URL
+
 export default function About() {
   return (
     <section style={{
@@ -94,7 +96,7 @@ export default function About() {
               overflow: 'hidden',
             }}>
               <img
-                src="/images/salonbild.png"
+                src={`${base}images/salonbild.png`}
                 alt="Aura Atelier Salon"
                 style={{
                   width: '100%',
@@ -117,7 +119,7 @@ export default function About() {
               overflow: 'hidden',
             }}>
               <img
-                src="/images/hair-washing-2.png"
+                src={`${base}images/hair-washing-2.png`}
                 alt="Hair Washing"
                 style={{
                   width: '100%',

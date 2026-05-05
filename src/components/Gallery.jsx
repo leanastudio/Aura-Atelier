@@ -2,12 +2,13 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import FadeIn from './FadeIn'
 
+const base = import.meta.env.BASE_URL
 const items = [
-  { id: 1, label: 'Balayage Glow',   cat: 'Hair',   img: '/images/balayage.png',        tall: true },
-  { id: 2, label: 'Soft Brunette',   cat: 'Hair',   img: '/images/soft-brunette.png' },
-  { id: 3, label: 'Lash Extensions', cat: 'Beauty', img: '/images/lash-extensions.png', tall: true },
-  { id: 4, label: 'Copper Shine',    cat: 'Hair',   img: '/images/copper-shine.png' },
-  { id: 5, label: 'Brow Styling',    cat: 'Beauty', img: '/images/brow-styling.png' },
+  { id: 1, label: 'Balayage Glow',   cat: 'Hair',   img: `${base}images/balayage.png`,        tall: true },
+  { id: 2, label: 'Soft Brunette',   cat: 'Hair',   img: `${base}images/soft-brunette.png` },
+  { id: 3, label: 'Lash Extensions', cat: 'Beauty', img: `${base}images/lash-extensions.png`, tall: true },
+  { id: 4, label: 'Copper Shine',    cat: 'Hair',   img: `${base}images/copper-shine.png` },
+  { id: 5, label: 'Brow Styling',    cat: 'Beauty', img: `${base}images/brow-styling.png` },
   { id: 6, label: 'Soft Waves',      cat: 'Hair',   gradient: 'linear-gradient(135deg, #9B8B7E 0%, #C8B8A2 50%, #F5F0EA 100%)', tall: true },
 ]
 

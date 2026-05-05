@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom'
 const EASE = [0.22, 1, 0.36, 1]
 
 // 👇 Hier tauschen: 'hero_v1.mp4' oder 'hero_v2.mp4'
-const HERO_VIDEO = '/videos/hero_v1.mp4'
-const HERO_PHOTO = '/videos/hero_poster.jpg'
+const base = import.meta.env.BASE_URL
+const HERO_VIDEO = `${base}videos/hero_v1.mp4`
+const HERO_PHOTO = `${base}videos/hero_poster.jpg`
 
 export default function Hero() {
   const [videoEnded, setVideoEnded] = useState(false)
