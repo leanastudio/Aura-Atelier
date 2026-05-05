@@ -18,8 +18,8 @@ export default function Navbar() {
   const navLinks = [
     { label: 'Home', to: '/' },
     { label: 'Services & Preise', to: '/services' },
-    { label: 'Galerie', to: '/#galerie' },
-    { label: 'Kontakt', to: '/#kontakt' },
+    { label: 'Galerie', to: '/galerie' },
+    { label: 'Kontakt', to: '/kontakt' },
   ]
 
   return (

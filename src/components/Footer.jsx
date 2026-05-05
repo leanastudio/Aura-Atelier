@@ -80,8 +80,8 @@ export default function Footer() {
               {[
                 ['Home', '/'],
                 ['Services & Preise', '/services'],
-                ['Galerie', '/#galerie'],
-                ['Termin buchen', '/#kontakt'],
+                ['Galerie', '/galerie'],
+                ['Termin buchen', '/kontakt'],
               ].map(([label, to]) => (
                 <Link
                   key={to}
