@@ -85,7 +85,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.85, ease: EASE }}
           style={{ display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap' }}
         >
-          <Link to="/#kontakt" style={{ textDecoration: 'none' }}>
+          <Link to="/kontakt" style={{ textDecoration: 'none' }}>
             <button
               style={{
                 background: '#2A2524',

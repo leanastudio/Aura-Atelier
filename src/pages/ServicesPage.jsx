@@ -290,7 +290,7 @@ export default function ServicesPage() {
           </h2>
         </FadeIn>
         <FadeIn delay={0.1}>
-          <Link to="/#kontakt" style={{ textDecoration: 'none' }}>
+          <Link to="/kontakt" style={{ textDecoration: 'none' }}>
             <button style={{
               background: '#C9A96E',
               color: '#FFFCF9',

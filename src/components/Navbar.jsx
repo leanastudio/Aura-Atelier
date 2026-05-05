@@ -88,7 +88,7 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
-        <Link to="/#kontakt" style={{ textDecoration: 'none' }}>
+        <Link to="/kontakt" style={{ textDecoration: 'none' }}>
           <button style={{
             background: '#2A2524',
             color: '#FFFCF9',
